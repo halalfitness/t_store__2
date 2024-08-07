@@ -17,6 +17,8 @@ void main() async {
 
   await GetStorage.init();
 
+  //,mnnn
+
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
